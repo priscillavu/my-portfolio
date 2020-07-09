@@ -1,0 +1,43 @@
+ 
+/* Color palette */
+:root {
+    --primary-color: #F28482;
+    --secondary-color: #84A59D;
+  
+    --complement1: #F6BD60;
+    --complement2: #F7EDE2;
+    --black: #1E1E1E;
+    --white: #FFF;
+    
+  }
+
+  @font-face {
+    font-family: Ovo;
+    src: url(Ovo-Regular.ttf)
+  }
+
+body {
+    width: 100%;
+    font-size: 14pt;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+p {
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
