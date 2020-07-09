@@ -11,10 +11,10 @@
     
   }
 
-  @font-face {
-    font-family: Ovo;
-    src: url(Ovo-Regular.ttf)
-  }
+  html {
+    -webkit-text-size-adjust: 100%;
+}
+
 
 body {
     width: 100%;
@@ -25,9 +25,20 @@ h1,
 h2, 
 h3, 
 h4, 
-h5, 
 p {
     color: var(--secondary-color);
+}
+
+p {
+  font-family: Muli;
+}
+
+h1,
+h2,
+h3,
+h4,
+ol.list li {
+  font-family: "Ovo";
 }
 
 h1 {
@@ -38,6 +49,46 @@ h2 {
     font-size: 30px;
 }
 
-h3 {
-    font-size: 1.5em;
+h5 {
+  color: var(--white);
+  font-size: 50px;
+}
+
+
+
+/* FOOTER */
+footer {
+  background-color: var(--complement1);
+  color: white;
+  padding-top: 5rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.footer-container {
+  margin: auto;
+}
+
+.sm-container  {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+  margin-top: 3rem;
+  width: 24rem;
+}
+
+.credit {
+  background-color: var(--primary-color);
+  color: white;
+  font-family: "Ovo";
+  font-size: 1.2rem;
+  line-height: 3.5rem;
+  padding-bottom: .5rem;
+  width: 100vw;
 }
