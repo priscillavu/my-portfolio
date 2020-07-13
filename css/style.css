@@ -15,38 +15,44 @@
     -webkit-text-size-adjust: 100%;
 }
 
-
 body {
     width: 100%;
-    font-size: 14pt;
+    font-size: 11pt;
 }
 
 h1, 
 h2, 
 h3, 
-h4, 
-p {
-    color: var(--secondary-color);
+h4 {
+  font-family: "Ovo";
+  color: var(--secondary-color);
 }
 
 p {
-  font-family: Muli;
+  font-family: "Muli";
+  color: var(--secondary-color);
+}
+
+h2 {
+  color: var(--primary-color);
 }
 
 h1,
 h2,
 h3,
 h4,
+h5
 ol.list li {
   font-family: "Ovo";
 }
 
-h1 {
-    font-size: 36px;
+h2 {
+  font-size: 40px;
 }
 
-h2 {
-    font-size: 30px;
+h1,
+h3 {
+  font-size: 36px;
 }
 
 h5 {
@@ -54,7 +60,35 @@ h5 {
   font-size: 50px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+li {
+  float: right;
+}
+
+li a {
+  font-family: "Ovo";
+  display: block;
+  color: #F28482;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a {
+  font-family: "Muli";
+  font-size: 16px;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+}
 
 /* FOOTER */
 footer {
@@ -79,16 +113,16 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10rem;
-  margin-top: 3rem;
   width: 24rem;
 }
 
 .credit {
-  background-color: var(--primary-color);
-  color: white;
-  font-family: "Ovo";
-  font-size: 1.2rem;
-  line-height: 3.5rem;
+  background-color: white;
+  color: var(--primary-color);
+  font-family: "Muli";
+  font-size: 13px;
+  line-height: 2.5rem;
   padding-bottom: .5rem;
   width: 100vw;
 }
+
