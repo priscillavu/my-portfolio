@@ -1,11 +1,11 @@
  
 /* Color palette */
 :root {
-    --primary-color: #F28482;
-    --secondary-color: #84A59D;
+    --primary-color: #484A47;
+    --secondary-color: #A37774;
   
-    --complement1: #F6BD60;
-    --complement2: #F7EDE2;
+    --complement1: #5C6D70;
+    --complement2: #E88873;
     --black: #1E1E1E;
     --white: #FFF;
     
@@ -20,16 +20,11 @@ body {
     font-size: 11pt;
 }
 
-h1, 
-h2, 
+h1,  
 h3, 
 h4 {
   font-family: "Ovo";
-  color: var(--secondary-color);
-}
-
-p {
-  font-family: "Muli";
+  font-size: 36px;
   color: var(--secondary-color);
 }
 
@@ -50,14 +45,14 @@ h2 {
   font-size: 40px;
 }
 
-h1,
-h3 {
-  font-size: 36px;
-}
-
 h5 {
   color: var(--white);
   font-size: 50px;
+}
+
+p {
+  font-family: "Muli";
+  color: var(--primary-color);
 }
 
 ul {
@@ -74,7 +69,7 @@ li {
 li a {
   font-family: "Ovo";
   display: block;
-  color: #F28482;
+  color: var(--secondary-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -92,7 +87,7 @@ a {
 
 /* FOOTER */
 footer {
-  background-color: var(--complement1);
+  background-color: var(--complement2);
   color: white;
   padding-top: 5rem;
   text-align: center;
