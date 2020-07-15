@@ -4,68 +4,63 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Priscilla Vu</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
   <!-- Navbar -->
 <nav>
-
-  
-  <div class="container navbar-wrapper">
-    <ul>
-      <li><a href='https://priscillavu.github.io'><img src="images/Logo.png" alt="logo" class="logo"></a></li>
-      <li><a href='https://priscillavu.github.io'>About</a></li>
-      <li><a href='https://priscillavu.github.io'>Work</a></li>
-      <li><a href='https://priscillavu.github.io'>Contact</a></li>
-    </ul>
-  </div>
+  <ul class="container-md nav">
+    <li><a href='/'><img src="images/Logo.png" alt="logo" class="logo"></a></li>
+    <div class="nav-links">
+      <li><a href='/'>About</a></li>
+      <li><a href='/'>Work</a></li>
+      <li><a href='/'>Contact</a></li>
+    </div>
+  </ul>
 </nav>
 
-  <div class="container">
+
+<div class="container-xl">
+  <img class="hero" src="https://images.unsplash.com/photo-1594334003508-a051102d0d9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1875&q=80">
+</div>
+  <!-- <img src="#" class=""> -->
 
           <h2>Hi, I’m Priscilla</h2>
           <h2 class="slogan">UX Queen from Orange County, California</h2>
 
-    <section id="my-work">
+    <section class="container-sm">
       <h2>Work</h2>
-      <ul>
-        <li class="project active" id="capstone-project">
-                <div class="project-img">
-                    <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot">
-                </div>
-                <div class="project-desc">
-                    <h3>Capstone Project</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="project-tile">
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot">
+          <div>
+              <h3>Capstone Project</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href='https://priscillavu.github.io'>Read case study</a>
+          </div>
+        </div>
 
-                    <a href='https://priscillavu.github.io'>Read case study</a>
-                </div>
-            
-        <li class="project active" id="mycloud-app">
-              <div class="project-img">
-                  <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot">
-              </div>
-              <div class="project-desc">
-                  <h3>MyCloud</h3>
-                  <p>Cloud storage and content creating app developed to help business professionals and students manage files, deliver projects and collaborate with peers.</p>
-
-                  <a href='https://priscillavu.github.io'>Read case study</a>
-              </div>
-          </li>
-      </ul>
+        <div class="project-tile">
+          <div>
+            <h3>MyCloud</h3>
+            <p>Cloud storage and content creating app developed to help business professionals and students manage files, deliver projects and collaborate with peers.</p>
+            <a href='/project.html'>Read case study</a>
+          </div>
+          <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot">
+        </div>
     </section>
   </div>
 
   <!-- Footer -->
 <footer>
-  <div class="footer-container container">
+  <div class="container-fluid">
     <h5> Connect with me! </h5>
     <div class="sm-container">
       <ul class="social-media">

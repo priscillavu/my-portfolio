@@ -1,4 +1,9 @@
- 
+/* Reset */
+ul, ol {
+  list-style: none;
+  padding-left: 0px;
+}
+
 /* Color palette */
 :root {
     --primary-color: #484A47;
@@ -8,16 +13,17 @@
     --complement2: #E88873;
     --black: #1E1E1E;
     --white: #FFF;
-    
   }
 
   html {
     -webkit-text-size-adjust: 100%;
 }
 
+/* Typography */
+
 body {
-    width: 100%;
-    font-size: 11pt;
+  font-family: "Muli";
+  font-size: 11pt;
 }
 
 h1,  
@@ -37,7 +43,7 @@ h2,
 h3,
 h4,
 h5
-ol.list li {
+{
   font-family: "Ovo";
 }
 
@@ -55,34 +61,88 @@ p {
   color: var(--primary-color);
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-}
-
-li a {
+nav {
   font-family: "Ovo";
-  display: block;
+}
+
+/* Colors */
+
+body {
+  color: var(--primary-color);
+}
+
+h1,  
+h3, 
+h4 {
+color: var(--secondary-color);
+}
+
+h2 {
+color: var(--primary-color);
+}
+
+
+h5 {
+color: var(--white);
+}
+
+nav a {
+  color: var(--complement2);
+}
+
+/* Links */
+
+.nav :hover {
   color: var(--secondary-color);
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-a {
-  font-family: "Muli";
-  font-size: 16px;
+/* Nav */
+
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding-right: 24px;
+}
+
+.nav-links :last-child {
+  padding-right: 0px;
+}
+
+.nav a {
+  font-size: 24px;
 }
 
 .logo {
-  height: 30%;
-  width: 30%;
+  padding-right: 0px;
+  width: 64px;
+}
+
+@media screen and (min-width: 720px) {
+  .logo {
+    width: 96px;
+  }
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  max-height: 375px;
+  
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media screen and (min-height: 720px) {
+  .hero {
+    max-height: 475px
+  }
 }
 
 /* FOOTER */
@@ -94,14 +154,11 @@ footer {
   width: 100vw;
 }
 
-.footer-container {
-  margin: auto;
-}
-
 .sm-container  {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 16px;
 }
 
 .social-media {
@@ -121,3 +178,19 @@ footer {
   width: 100vw;
 }
 
+/* Project tile */
+
+.project-tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+.project-tile > * {
+  width: 50%;
+}
+
+.project-tile :first-child {
+  padding-right: 24px;
+}
