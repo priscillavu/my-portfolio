@@ -48,7 +48,13 @@ h5
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 55px;
+  text-align: center;
+}
+
+.slogan {
+  font-size: 30px;
+  padding-bottom: 100px;
 }
 
 h5 {
@@ -81,14 +87,29 @@ h2 {
 color: var(--primary-color);
 }
 
-
 h5 {
 color: var(--white);
 }
 
 nav a {
-  color: var(--complement2);
+color: var(--complement2);
 }
+
+/* Button Styling
+
+a {
+  color: var(--complement2);
+  border-radius: 20px;
+  padding: 10px 50px 10px 50px;
+  border: 1px solid #E88873;
+  }
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+ */
 
 /* Links */
 
@@ -126,6 +147,7 @@ nav a {
 
 @media screen and (min-width: 720px) {
   .logo {
+    padding-top: 30px;
     width: 96px;
   }
 }
@@ -137,6 +159,7 @@ nav a {
   
   object-fit: cover;
   object-position: center center;
+  padding-top: 100px;
 }
 
 @media screen and (min-height: 720px) {
@@ -184,7 +207,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 96px;
+  margin-bottom: 95px;
 }
 
 .project-tile > * {
