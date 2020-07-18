@@ -91,29 +91,28 @@ h5 {
 color: var(--white);
 }
 
+
+/* Links */
+
 nav a {
 color: var(--complement2);
 }
 
-/* Button Styling
-
-a {
-  color: var(--complement2);
-  border-radius: 20px;
-  padding: 10px 50px 10px 50px;
-  border: 1px solid #E88873;
-  }
-
-a:hover {
+.nav :hover {
   color: var(--secondary-color);
   text-decoration: none;
 }
 
- */
+a.button {
+  color: var(--complement2);
+  border: 1px solid #E88873;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 30px;
+  padding: 8px 50px 8px 50px;
+  }
 
-/* Links */
-
-.nav :hover {
+a.button:hover {
   color: var(--secondary-color);
   text-decoration: none;
 }
@@ -168,7 +167,36 @@ a:hover {
   }
 }
 
-/* FOOTER */
+/* Image Styling */
+
+.mycloud-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 35%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 65%;
+}
+
+.sketches {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 50%;
+}
+
+/* Footer */
 footer {
   background-color: var(--complement2);
   color: white;
