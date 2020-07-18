@@ -103,13 +103,14 @@ color: var(--complement2);
   text-decoration: none;
 }
 
-a.button {
+a.btn {
   color: var(--complement2);
   border: 1px solid #E88873;
   border-radius: 20px;
   display: inline-block;
   margin: 30px;
   padding: 8px 50px 8px 50px;
+  
   }
 
 a.button:hover {
