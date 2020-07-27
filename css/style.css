@@ -4,17 +4,6 @@ ul, ol {
   padding-left: 0px;
 }
 
-@media screen and (max-width:900) {
-  #container{
-    width:100%;
-  } 
-  #left-column{
-    width:70%;
-  }
-  #right-column{
-    width:30%;
-  }
-}
 /* Color palette */
 :root {
     --primary-color: #484A47;
