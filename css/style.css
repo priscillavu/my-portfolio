@@ -79,6 +79,11 @@ nav {
   font-family: "Muli";
 }
 
+.big-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /* Colors */
 
 body {
@@ -101,6 +106,10 @@ color: var(--white);
 
 
 /* Links */
+
+a:link {
+  color: var(--complement2);
+}
 
 nav a {
 color: var(--complement2);
@@ -177,6 +186,15 @@ a.button:hover {
 }
 
 /* Image Styling */
+
+.bio-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 35%;
+}
 
 .mycloud-logo {
   display: block;
