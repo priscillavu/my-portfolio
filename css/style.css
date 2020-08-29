@@ -29,9 +29,8 @@ body {
 h1,  
 h3, 
 h4 {
-  font-family: "Ovo";
   font-size: 38px;
-  color: var(--secondary-color);
+  color: var(--complement1);
 }
 
 h2 {
@@ -47,27 +46,29 @@ h5
   font-family: "Muli";
 }
 
-
-h3,
-h4
-{
-  font-weight: bold;
-  letter-spacing: 8px;
-}
-
 h2 {
   font-size: 55px;
   text-align: center;
 }
 
-.slogan {
-  font-size: 30px;
-  padding-bottom: 100px;
+h3 {
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+h4 {
+  font-size: 55px;
+  text-align: center;
 }
 
 h5 {
   color: var(--white);
   font-size: 50px;
+}
+
+.slogan {
+  font-size: 30px;
+  padding-bottom: 100px;
 }
 
 p {
@@ -196,6 +197,15 @@ a.button:hover {
   width: 35%;
 }
 
+.contact-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 18%;
+}
+
 .mycloud-logo {
   display: block;
   margin-left: auto;
@@ -221,6 +231,64 @@ a.button:hover {
   padding-top: 25px;
   padding-bottom: 25px;
   width: 50%;
+}
+
+/* Contact Page */
+
+.contact-me {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+input {
+  font-family: 'Muli';
+  font-size: 20px;
+  line-height: 0.4rem;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: var(--primary-color);
+}
+
+textarea {
+  color: var(--primary-color);
+  font-family: 'Muli';
+  font-size: 20px;
+  line-height: 1.4rem;
+  width: 100%;
+  padding: 12px 20px;
+  text-align: left;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formbutton {
+  border-radius: 4px;
+  border-color: var(--primary-color);
+  border-width: 1.5px;
+  width:100%;
+  font-family: "Muli";
+  font-size: 20px;
+  line-height: 1.4rem;
+  padding-top:12px;
+  padding-bottom: 12px;
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.formbutton:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.contactform {
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 /* Footer */
